@@ -29,6 +29,7 @@ public class MyStepDefination {
         driver.get("https://en-gb.facebook.com/");
         driver.findElement(By.xpath("//button[contains(string(), 'Allow all cookies')]")).click();
         driver.findElement(By.xpath("/html//a[contains(string(), 'Create new account')]")).click();
+        System.out.println("opening URL");
 
     }
 
